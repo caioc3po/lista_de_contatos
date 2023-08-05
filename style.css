@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    background-color: #be94a2
+}
+
+/* Sessão de adicionar contato*/
+
+h1,
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+}
+
+h1 {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: block;
+    background-color: rgba(196, 235, 241, 0.685);
+    max-width: 550px;
+    width: 100%;
+    margin-top: 300px;
+    margin-left: 200px;
+    height: 350px;
+    padding: 25px;
+    border-radius: 50px;
+    border: 4px solid rgba(80, 89, 204, 0.562);
+}
+
+.container input {
+    margin: 15px 0px;
+}
+
+.container button {
+    height: 35px;
+    width: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    color: azure;
+    background-color: rgba(80, 89, 204, 0.562);
+    border: 2px solid rgba(0, 0, 0, 0.829);
+    margin-top: 10px;
+}
+
+/* Tabela de contatos */
+
+.tabela-contatos {
+    background-color: rgba(179, 232, 241, 0.664);
+    margin: 100px 150px 0px 100px;
+    width: 100%;
+    max-width: 800px;
+    height: 700px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid rgba(80, 89, 204, 0.562);
+}
+
+.tabela-contatos table {
+    margin-top: 30px;
+    width: 650px;
+}
+
+.tabela-contatos table thead tr td {
+    font-size: 30px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding-left: 15px;
+    font-weight: bold;
+    padding-bottom: 20px
+}
+
+.tabela-contatos table tfoot tr td {
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 15px;
+    border-top: 1px solid rgb(0, 0, 0);
+    padding-bottom: 15px;
+}
+
+.tabela-contatos label {
+    width: 300px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-right: 30px;
+}
